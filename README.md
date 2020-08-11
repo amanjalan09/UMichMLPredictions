@@ -45,6 +45,6 @@ The mobile application was tested using the Time Profiler tool in XCode, and hel
 The app is currently being beta-tested, and will soon be released on the App Store (hopefully by October!)
 
 ## Credits
-* Your First iOS and SwiftUI App by Ray Wenderlich (Online Course available for Free!) - This course enabled me to learn SwiftUI
-* SwiftUI - Declarative Interfaces for any Apple Device by Mohammad Azam (Online Course on Udemy) - This course furthered my skills in SwiftUI 
-* https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w - This YouTube channel had a lot of the content I was looking for!
+* Machine Learning by Andrew Ng (Online Course available on Coursera) - This course solidified my theoretical understanding of Machine Learning Models
+* Python for Data Science and Machine Learning Bootcamp by Jose Portilla (Online Course available on Udemy) - This course taught me how to use Python and libraries such as NumPy, Pandas, Scikit-Learn and TensorFlow to manipulate data and implement Machine Learning models!
+* https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig - Very helpful Machine Learning YouTube channel!
