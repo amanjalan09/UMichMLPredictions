@@ -4,6 +4,9 @@ With increasingly competitive applications, current college admissions criteria 
 ## Process
 
 * Collecting the Dataset
+* Preprocessing the Data
+* Creating an ML Model
+* Deploying the ML Model onto a web application
 
 ## How to use?
 The interactive web application is currently construction! We're hoping to roll it out by the end of August!
