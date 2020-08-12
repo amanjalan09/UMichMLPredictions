@@ -1,12 +1,14 @@
 ## ChanceMe@UMich
+With increasingly competitive applications, current college admissions criteria are hard to define. ChanceMe@UMich aims to predict a student's chances into the University of Michigan using Machine Learning based on various factors such as academics, extracurricular activities, and demographics. Through an interactive web applciation (coming soon!), prospective students will be able to gauge where they stand in comparison to previously accepted applicants. Based on the 1000+ entries collected, the web application will also provide tips and tricks to improve chances of admission!
 
-## Features
+## Process
 
-## Tests
+* Collecting the Dataset
 
 ## How to use?
+The interactive web application is currently construction! We're hoping to roll it out by the end of August!
 
 ## Credits
-* Machine Learning by Andrew Ng (Online Course available on Coursera) - This course solidified my theoretical understanding of Machine Learning Models
-* Python for Data Science and Machine Learning Bootcamp by Jose Portilla (Online Course available on Udemy) - This course taught me how to use Python and libraries such as NumPy, Pandas, Scikit-Learn and TensorFlow to manipulate data and implement Machine Learning models!
+* Machine Learning by Andrew Ng (Online Course available on Coursera)
+* Python for Data Science and Machine Learning Bootcamp by Jose Portilla (Online Course available on Udemy)
 * https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig - Very helpful Machine Learning YouTube channel!
