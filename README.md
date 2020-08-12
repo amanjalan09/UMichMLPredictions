@@ -8,6 +8,12 @@ With increasingly competitive applications, current college admissions criteria 
 * Creating an ML Model
 * Deploying the ML Model onto a web application
 
+
+## Languages/Frameworks used
+* Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn)
+* Django
+
+
 ## How to use?
 The interactive web application is currently construction! We're hoping to roll it out by the end of August!
 
