@@ -11,9 +11,16 @@ https://forms.gle/LZXtainRFroLHHmC8
 
 Fig 1 shows the number of responses we recieved as of August 13th, whereas Fig 2,3.4 show some graphs of the dataset.
 
-| First Header  | Second Header | Third Header | Fourth Header |
-| ------------- | ------------- |------------- |---------------|
-| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=100>  | Content Cell  |              |               |
+| Fig 1: No. of Responses to Survey  | Fig 2: Survey Data (Acceptance to UMich) |
+| ------------- | ------------- |
+| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  | <img src="/ChanceMeScreenshots/ChanceMeFig2.png" width=500>   |
+
+| Fig 3: Survey Data (EA/RA)  | Fig 2: Survey Data (ACT Scores) |
+| ------------- | ------------- |
+| <img src="/ChanceMeScreenshots/ChanceMeFig3.png" width=500>  | <img src="/ChanceMeScreenshots/ChanceMeFig4.png" width=500>   |
+
+
+
 
 
 
