@@ -1,5 +1,5 @@
 ## ChanceMe@UMich
-With increasingly competitive applications, current college admissions criteria are hard to define. ChanceMe@UMich aims to predict a student's chances into the University of Michigan using Machine Learning based on various factors such as academics, extracurricular activities, and demographics. Through an interactive web applciation (coming soon!), prospective students will be able to gauge where they stand in comparison to previously accepted applicants. Based on the 1000+ entries collected, the web application will also provide tips and tricks to improve chances of admission!
+With increasingly competitive applications, current college admissions criteria are hard to define. ChanceMe@UMich aims to predict a student's chances into the University of Michigan using Machine Learning based on various factors such as academics, extracurricular activities, and demographics. Through an interactive web applciation, prospective students will be able to gauge where they stand in comparison to previously accepted applicants. Based on the 1000+ entries collected, the web application will also provide tips and tricks to improve chances of admission!
 
 ## Process
 
@@ -9,28 +9,44 @@ Since no publicly dataset was available, we had to collect data first-hand (this
 
 https://forms.gle/LZXtainRFroLHHmC8
 
-Fig 1 shows the number of responses we recieved as of August 13th, whereas Fig 2,3.4 show some graphs of the dataset.
+Fig 1 shows the number of responses we recieved as of August 13th, whereas Fig 2,3,4 show some graphs of the dataset.
 
 | Fig 1: No. of Responses to Survey  | Fig 2: Survey Data (Acceptance to UMich) |
 | ------------- | ------------- |
 | <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  | <img src="/ChanceMeScreenshots/ChanceMeFig2.png" width=500>   |
 
-| Fig 3: Survey Data (EA/RA)  | Fig 2: Survey Data (ACT Scores) |
+| Fig 3: Survey Data (EA/RA)  | Fig 4: Survey Data (ACT Scores) |
 | ------------- | ------------- |
 | <img src="/ChanceMeScreenshots/ChanceMeFig3.png" width=500>  | <img src="/ChanceMeScreenshots/ChanceMeFig4.png" width=500>   |
 
-
-
-
-
-
-
-
 * Preprocessing the Data
+
+Preprocessing the data involved making data more readable by changing column names, converting ACT/SAT scores to one metric, normalizing data, filtering data to remove invalid entries (Ex. people who didn't submit SAT or ACT scores, or people who submitted SAT scores not ending with 0, which is impossible), etc. Fig 5 demonstrates one such invalid entry, where the student claimed that he got a 5 on the SAT and ACT.
+
+| Fig 5: Example of an invalid entry  | 
+| ------------- |
+| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  |
+
+* Performing Exploratory Data Analysis
+
+Data was also visualized using Matplotlib and Seaborn to make sense of data trends. This also helped with performing Feature Engineering (converting categorical data to numeric) & Feature Selection (reducing redundant variables). Fig 6 demonstrates a countplot used to analyze the trend between applicants who applied through Early Action vs Regular Action and their acceptance chances. 
+
+| Fig 6: Countplot displaying Early Action vs Regular Decision in terms of acceptance rate | 
+| ------------- |
+| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  |
 
 * Creating an ML Model
 
+Lastly, using Scikit-Learn, various Machine Learning models were applied (Logistic Regression, Support Vector Machines, Random Forest, etc.). Fig 7 displays a classification report where an accuracy of 65% was achieved (This was only with a partial dataset of 825 responses).
+
+| Fig 7: Classification Report of SVM model | 
+| ------------- |
+| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  |
+
+
 * Deploying the ML Model onto a web application
+
+Under Construction. 
 
 
 ## Languages/Frameworks used
