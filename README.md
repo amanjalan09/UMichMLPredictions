@@ -23,9 +23,11 @@ Fig 1 shows the number of responses we recieved as of August 13th, whereas Fig 2
 
 Preprocessing the data involved making data more readable by changing column names, converting ACT/SAT scores to one metric, normalizing data, filtering data to remove invalid entries (Ex. people who didn't submit SAT or ACT scores, or people who submitted SAT scores not ending with 0, which is impossible), etc. Fig 5 demonstrates one such invalid entry, where the student claimed that he got a 5 on the SAT and ACT.
 
+
 | Fig 5: Example of an invalid entry  | 
 | ------------- |
-| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  |
+| <img src="/ChanceMeScreenshots/ChanceMeFig5.png" width=500>  |
+
 
 * Performing Exploratory Data Analysis
 
@@ -33,7 +35,8 @@ Data was also visualized using Matplotlib and Seaborn to make sense of data tren
 
 | Fig 6: Countplot displaying Early Action vs Regular Decision in terms of acceptance rate | 
 | ------------- |
-| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  |
+| <img src="/ChanceMeScreenshots/ChanceMeFig6.png" width=500>  |
+
 
 * Creating an ML Model
 
@@ -41,7 +44,8 @@ Lastly, using Scikit-Learn, various Machine Learning models were applied (Logist
 
 | Fig 7: Classification Report of SVM model | 
 | ------------- |
-| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=500>  |
+| <img src="/ChanceMeScreenshots/ChanceMeFig7.png" width=500>  |
+
 
 
 * Deploying the ML Model onto a web application
