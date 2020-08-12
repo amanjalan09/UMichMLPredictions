@@ -5,11 +5,15 @@ With increasingly competitive applications, current college admissions criteria 
 
 * Collecting the Dataset
 
-Since no publicly dataset was available, we had to collect data first-hand (this was the most time-consuming part of the project). We created a survey on Google Forms and surveyed 1000+ students who previously applied to the University of Michigan from 40+ universities across the United States. We reached out to students mainly through University Facebook groups and also through some personal connections. We asked objective questions such as Acceptance Status into University of Michigan, SAT/ACT Score, Class Rank, Gender, Ethnicity, Student Government involvement, etc. (The survey link is posted below! Feel free to take it if you previously applied to the University of Michigan!). 
+Since no publicly dataset was available, we had to collect data first-hand (this was the most time-consuming part of the project). We created a survey on Google Forms and surveyed 1000+ students who previously applied to the University of Michigan from 40+ universities across the United States. We reached out to students mainly through University Facebook groups and also through some personal connections. We asked objective questions such as Acceptance Status into University of Michigan, SAT/ACT Score, Class Rank, Gender, Ethnicity, Student Government involvement, etc. (The survey link is posted below! Feel free to take it if you previously applied to the University of Michigan!)
 
 https://forms.gle/LZXtainRFroLHHmC8
 
 Fig 1 shows the number of responses we recieved as of August 13th, whereas Fig 2,3.4 show some graphs of the dataset.
+
+Fig 1: Initial Mock Up         |  Fig 2: Final Design
+:-------------------------:|:-------------------------:
+<img src="/Screenshots/InitialMockUp.png" width=300>  |  <img src="/Screenshots/FinalSketch.png" width=300>
 
 
 
