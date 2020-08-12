@@ -11,9 +11,10 @@ https://forms.gle/LZXtainRFroLHHmC8
 
 Fig 1 shows the number of responses we recieved as of August 13th, whereas Fig 2,3.4 show some graphs of the dataset.
 
-Fig 1: Initial Mock Up         |  Fig 2: Final Design
-:-------------------------:|:-------------------------:
-<img src="/Screenshots/InitialMockUp.png" width=300>  |  <img src="/Screenshots/FinalSketch.png" width=300>
+| First Header  | Second Header | Third Header | Fourth Header |
+| ------------- | ------------- |------------- |---------------|
+| <img src="/ChanceMeScreenshots/ChanceMeFig1.png" width=100>  | Content Cell  |              |               |
+
 
 
 
