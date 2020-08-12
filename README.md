@@ -1,5 +1,5 @@
 ## ChanceMe@UMich
-With increasingly competitive applications, current college admissions criteria are hard to define. ChanceMe@UMich aims to predict a student's chances into the University of Michigan using Machine Learning based on various factors such as academics, extracurricular activities, and demographics. Through an interactive web applciation, prospective students will be able to gauge where they stand in comparison to previously accepted applicants. Based on the 1000+ entries collected, the web application will also provide tips and tricks to improve chances of admission!
+With increasingly competitive applications, current college admissions criteria are hard to define. ChanceMe@UMich aims to predict a student's chances into the University of Michigan using Machine Learning based on various factors such as academics, extracurricular activities, and demographics. Through an interactive web application, prospective students will be able to gauge where they stand in comparison to previously accepted applicants. Based on the 1000+ entries collected, the web application will also provide tips and tricks to improve chances of admission!
 
 ## Process
 
@@ -9,7 +9,7 @@ Since no publicly dataset was available, we had to collect data first-hand (this
 
 https://forms.gle/LZXtainRFroLHHmC8
 
-Fig 1 shows the number of responses we recieved as of August 13th, whereas Fig 2,3,4 show some graphs of the dataset.
+Fig 1 shows the number of responses we received as of August 13th, whereas Fig 2,3,4 show some graphs of the dataset.
 
 | Fig 1: No. of Responses to Survey  | Fig 2: Survey Data (Acceptance to UMich) |
 | ------------- | ------------- |
@@ -26,7 +26,7 @@ Preprocessing the data involved making data more readable by changing column nam
 
 | Fig 5: Example of an invalid entry  | 
 | ------------- |
-| <img src="/ChanceMeScreenshots/ChanceMeFig5.png" width=500>  |
+| <img src="/ChanceMeScreenshots/ChanceMeFig5.png" width=700>  |
 
 
 * Performing Exploratory Data Analysis
