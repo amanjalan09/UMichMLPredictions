@@ -59,7 +59,7 @@ Under Construction.
 
 
 ## How to use?
-The interactive web application is currently construction! We're hoping to roll it out by the end of August!
+The interactive web application is currently under construction! We're hoping to roll it out by the end of August!
 
 ## Credits
 * Machine Learning by Andrew Ng (Online Course available on Coursera)
