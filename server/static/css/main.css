@@ -122,6 +122,8 @@ button {
    ========================================================================== */
 .page-wrapper {
   min-height: 100vh;
+  width: auto;
+  display:block;
 }
 
 body {
@@ -209,6 +211,10 @@ h6 {
    ========================================================================== */
 .wrapper {
   margin: 0 auto;
+}
+
+.wrapper--w1200{
+  max-width: 1190px;
 }
 
 .wrapper--w960 {
@@ -471,7 +477,13 @@ input {
   font-weight: 400;
   margin-bottom: 36px;
 }
+.text{
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 50px;
 
+}
 /* ==========================================================================
    #CARD
    ========================================================================== */
@@ -498,7 +510,7 @@ input {
 .card-3 .card-heading {
   background: url("../images/bg-heading-03.jpg") top left/cover no-repeat;
   display: table-cell;
-  width: 50%;
+  width: 75%;
 }
 
 .card-3 .card-body {
