@@ -55,7 +55,7 @@ Under Construction.
 
 ## Languages/Frameworks used
 * Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-Learn)
-* Django
+* Flask, HTML, CSS, JQuery, Javascript
 
 
 ## How to use?
