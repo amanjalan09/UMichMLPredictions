@@ -33,14 +33,15 @@
                 <div class="card-body">
                     <h2 class="title">ChanceMe</h2>
                     <h5 class="text">We encourage you to answer the questions as honestly as possible, as your answer will help us determine your implicit admissions decision. With increasingly competitive applications, current admissions criteria are hard to define. This model will enable prospective students to gauge where they stand in comparison to previously accepted applicants, allowing students to make informed choices.</h5>
-                    <form method="POST">
+                    <form  method="POST">
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="What College within the University of Michigan did you apply to?">
+                                <select name="What College within the University of Michigan did you apply to?">
                                     <option disabled="disabled" selected="selected">What College within the University of Michigan did you apply to?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
+                                    <option>College of Engineering (CoE)</option>
+                                    <option>Ross School of Business</option>
+                                    <option>College of Literature, Science, and the Arts (LSA)</option>
                                     <option>Other</option>
                                 </select>
                                 <div class="select-dropdown"></div>
@@ -49,32 +50,32 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="What was the nature of your application to the University of Michigan?">
+                                <select name="What was the nature of your application to the University of Michigan?">
                                     <option disabled="disabled" selected="selected">What was the nature of your application to the University of Michigan?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Early Action / EA</option>
+                                    <option>Regular Decision / RD</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
                         </div>
 
-
                         <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="If you took the SAT, what was your score out of 1600 (Ex. 1500)?" name="phone">
+                            <input class="input--style-3" type="number" placeholder="If you took the SAT, what was your score out of 1600 (Ex. 1500)?" name="If you took the SAT, what was your score out of 1600 (Ex. 1500)?">
                         </div>
 
                         <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="If you took the ACT, what was your score out of 36 (Ex. 34)?" name="phone">
+                            <input class="input--style-3" type="number" placeholder="If you took the ACT, what was your score out of 36 (Ex. 34)?" name="If you took the ACT, what was your score out of 36 (Ex. 34)?">
                         </div>
-
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Where would you rank yourself academically in class?">
+                                <select name="Where would you rank yourself academically in class?">
                                     <option disabled="disabled" selected="selected">Where would you rank yourself academically in class?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
+                                    <option>Top 2%</option>
+                                    <option>Top 5%</option>
+                                    <option>Top 10%</option>
+                                    <option>Top 20%</option>
+                                    <option>Top 50%</option>
                                     <option>Other</option>
                                 </select>
                                 <div class="select-dropdown"></div>
@@ -84,11 +85,11 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="How many SAT Subject Test Scores were submitted with a score of >= 700?">
+                                <select name="How many SAT Subject Test Scores were submitted with a score of >= 700?">
                                     <option disabled="disabled" selected="selected">How many SAT Subject Test Scores were submitted with a score of >= 700?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2 and above</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -96,11 +97,13 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="How many AP Test Scores were submitted with a score of >= 3?">
+                                <select name="How many AP Test Scores were submitted with a score of >= 3?">
                                     <option disabled="disabled" selected="selected">How many AP Test Scores were submitted with a score of >= 3?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>0</option>
+                                    <option>1-3</option>
+                                    <option>4-6</option>
+                                    <option>7-9</option>
+                                    <option>10 and above</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -109,11 +112,15 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="How many IB Test Scores were submitted with a score of >= 5?">
+                                <select name="How many IB Test Scores were submitted with a score of >= 5?">
                                     <option disabled="disabled" selected="selected">How many IB Test Scores were submitted with a score of >= 5?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6 and above</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -122,7 +129,7 @@
                         
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name=" What gender identity do you most identify with?">
+                                <select name=" What gender identity do you most identify with?">
                                     <option disabled="disabled" selected="selected">What gender identity do you most identify with?</option>
                                     <option>Male</option>
                                     <option>Female</option>
@@ -135,10 +142,16 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Please indicate your ethnicity?">
+                                <select name="Please indicate your ethnicity?">
                                     <option disabled="disabled" selected="selected">Please indicate your ethnicity?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
+                                    <option>Caucasian</option>
+                                    <option>Latino/Hispanic or Spanish Origin</option>
+                                    <option>Middle Eastern</option>
+                                    <option>African</option>
+                                    <option>Caribbean</option>
+                                    <option>South Asian</option>
+                                    <option>East Asian</option>
+                                    <option>Mixed</option>
                                     <option>Other</option>
                                 </select>
                                 <div class="select-dropdown"></div>
@@ -148,11 +161,11 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="What was your residency status when you applied to the University of Michigan?">
+                                <select name="What was your residency status when you applied to the University of Michigan?">
                                     <option disabled="disabled" selected="selected">What was your residency status when you applied to the University of Michigan?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>In-State</option>
+                                    <option>Out-of-State</option>
+                                    <option>International</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -161,11 +174,10 @@
                         
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Were you considered a legacy (i.e. your parents or siblings went to the University of Michigan)?">
+                                <select  name="Were you considered a legacy (i.e. your parents or siblings went to the University of Michigan)?">
                                     <option disabled="disabled" selected="selected">Were you considered a legacy (i.e. your parents or siblings went to the University of Michigan)?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -174,11 +186,10 @@
                         
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Were you considered a first-generation college student (i.e. you were the first in your family to go to college)?">
+                                <select name="Were you considered a first-generation college student (i.e. you were the first in your family to go to college)?">
                                     <option disabled="disabled" selected="selected">Were you considered a legacy (i.e. your parents or siblings went to the University of Michigan)?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -186,11 +197,10 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Did you ask for Financial Aid?">
+                                <select name="Did you ask for Financial Aid?">
                                     <option disabled="disabled" selected="selected">Did you ask for Financial Aid?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -199,11 +209,10 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Were you a part of Student government at your school?">
+                                <select name="Were you a part of Student government at your school?">
                                     <option disabled="disabled" selected="selected">Were you a part of Student government at your school?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -212,11 +221,10 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Did you have any notable leadership positions in high school (i.e. President/Vice-President of a club)?">
+                                <select name="Did you have any notable leadership positions in high school (i.e. President/Vice-President of a club)?">
                                     <option disabled="disabled" selected="selected">Did you have any notable leadership positions in high school (i.e. President/Vice-President of a club)?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -225,11 +233,10 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Were you a member of a Sports team in high school (Dedicated 100+ hours)?">
+                                <select name="Were you a member of a Sports team in high school (Dedicated 100+ hours)?">
                                     <option disabled="disabled" selected="selected">Were you a member of a Sports team in high school (Dedicated 100+ hours)?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -238,11 +245,10 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Did you volunteer in high school (Dedicated 100+ hours)?">
+                                <select name="Did you volunteer in high school (Dedicated 100+ hours)?">
                                     <option disabled="disabled" selected="selected"> Did you volunteer in high school (Dedicated 100+ hours)?</option>                                                             
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
@@ -251,11 +257,10 @@
 
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender" name="Did you participate in the performing arts (dance, drama and other forms of artistic expressions) while in high school (100+ hours)?">
+                                <select name="Did you participate in the performing arts (dance, drama and other forms of artistic expressions) while in high school (100+ hours)?">
                                     <option disabled="disabled" selected="selected">Did you participate in the performing arts (dance, drama and other forms of artistic expressions) while in high school (100+ hours)?</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>

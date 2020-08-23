@@ -217,13 +217,15 @@ h6 {
   max-width: 1190px;
 }
 
+
+/*
+ * max-width : 960px;
+ * need media queries to make responsive
 .wrapper--w960 {
   max-width: auto;
-  display: inline-block;
   margin: 0 auto;
-  padding-left: 200px;
-  padding-right: 200px;
 }
+*/
 
 .wrapper--w780 {
   max-width: 780px;
@@ -525,6 +527,8 @@ input {
   display: table-cell;
 }
 
+
+
 @media (max-width: 767px) {
   .card-3 {
     display: block;
@@ -540,5 +544,19 @@ input {
     width: 100%;
     padding: 37px 30px;
     padding-bottom: 45px;
+  }
+
+  .wrapper--w960 {
+    max-width: auto;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 2000px) {
+  .wrapper--w960 {
+    max-width: auto;
+    margin: 0 auto;
+    padding-left:200px;
+    padding-right:200px;
   }
 }
