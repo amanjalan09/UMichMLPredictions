@@ -164,8 +164,8 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
-}
+  background: #0993f3
+ }
 
 .bg-red {
   background: #fa4251;
@@ -180,7 +180,7 @@ h6 {
 }
 
 /* ==========================================================================
-   #SPACING
+   #spacing
    ========================================================================== */
 .p-t-100 {
   padding-top: 100px;
@@ -207,10 +207,10 @@ h6 {
 }
 
 /* ==========================================================================
-   #WRAPPER
+   #wrapper
    ========================================================================== */
 .wrapper {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .wrapper--w1200{
@@ -218,7 +218,11 @@ h6 {
 }
 
 .wrapper--w960 {
-  max-width: 960px;
+  max-width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .wrapper--w780 {
@@ -230,13 +234,14 @@ h6 {
 }
 
 /* ==========================================================================
-   #BUTTON
+   #button
    ========================================================================== */
 .btn {
+  margin:auto;
   display: inline-block;
   line-height: 40px;
   padding: 0 33px;
-  font-family: Poppins, Arial, "Helvetica Neue", sans-serif;
+  font-family: poppins, arial, "helvetica neue", sans-serif;
   cursor: pointer;
   color: #fff;
   -webkit-transition: all 0.4s ease;
@@ -267,7 +272,7 @@ h6 {
 }
 
 /* ==========================================================================
-   #DATE PICKER
+   #date picker
    ========================================================================== */
 td.active {
   background-color: #2c6ed5;
@@ -472,6 +477,7 @@ input {
    #TITLE
    ========================================================================== */
 .title {
+  text-align:center;
   font-size: 24px;
   color: #fff;
   font-weight: 400;
