@@ -1,4 +1,4 @@
-from flask import Flask , jsonify, request
+from flask import Flask , jsonify, request , render_template
 from flask import Response
 from urllib.parse import unquote
 import requests
@@ -18,29 +18,29 @@ model = pickle.load(f)
 @cache.cached(timeout=86400, query_string=True)
 def home():
     if request.method == "GET":
-        content = request.json
-        return jsonify({"success":200})
+        return render_template('index.html')
     else:
         #convert json to data list and pass into
-        content = request.json
+        content = request.form.to_dict()         
+        print(content)
         data = [[element for key,element in content.items()]]
         head = cleaning(data)
         result = model.predict(head)
         return jsonify({"result":int(result[0])})
 
-@app.errorhandler(Exception)
-def handle_exception(e):
-    """Return JSON instead of HTML for HTTP errors."""
-    # start with the correct headers and status code from the error
-    response = e.get_response()
-    # replace the body with JSON
-    response.data = json.dumps({
-        "code": e.code,
-        "name": e.name,
-        "description": e.description,
-    })
-    response.content_type = "application/json"
-    return response
+#@app.errorhandler(Exception)
+#def handle_exception(e):
+#    """Return JSON instead of HTML for HTTP errors."""
+#    # start with the correct headers and status code from the error
+#    response = e.get_response()
+#    # replace the body with JSON
+#    response.data = json.dumps({
+#        "code": e.code,
+#        "name": e.name,
+#        "description": e.description,
+#    })
+#    response.content_type = "application/json"
+#    return response
 
 
 if __name__ == '__main__':
