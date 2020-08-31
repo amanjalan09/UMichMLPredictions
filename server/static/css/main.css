@@ -121,7 +121,7 @@ button {
    #PAGE WRAPPER
    ========================================================================== */
 .page-wrapper {
-  min-height: 100vh;
+  min-height: auto;
   width: auto;
   display:block;
 }
@@ -218,14 +218,11 @@ h6 {
 }
 
 
-/*
- * max-width : 960px;
- * need media queries to make responsive
+ /* max-width : 960px;*/
 .wrapper--w960 {
   max-width: auto;
-  margin: 0 auto;
+  margin: 10%;
 }
-*/
 
 .wrapper--w780 {
   max-width: 780px;
@@ -529,7 +526,7 @@ input {
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 1400px) {
   .card-3 {
     display: block;
   }
@@ -548,11 +545,12 @@ input {
 
   .wrapper--w960 {
     max-width: auto;
-    margin: 0 auto;
+    margin: 0 10%;
   }
 }
 
-@media (max-width: 2000px) {
+/*
+@media (max-width: 600px) {
   .wrapper--w960 {
     max-width: auto;
     margin: 0 auto;
@@ -560,3 +558,11 @@ input {
     padding-right:200px;
   }
 }
+
+@media (max-width: 400px){
+  .wrapper--w960 {
+    max-width: auto;
+    margin: 0 auto;
+  }
+}
+*/

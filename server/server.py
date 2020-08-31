@@ -22,8 +22,13 @@ def home():
     else:
         #convert json to data list and pass into
         content = request.form.to_dict()         
-        print(content)
         data = [[element for key,element in content.items()]]
+
+        for index in range(0,len(data[0])):
+            if data[0][index].isnumeric():
+                data[0][index]=int(data[0][index])
+
+        data[0].append("")
         head = cleaning(data)
         result = model.predict(head)
         return jsonify({"result":int(result[0])})

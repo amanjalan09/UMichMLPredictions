@@ -10,7 +10,7 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Au Register Forms by Colorlib</title>
+    <title>Chance Me</title>
 
     <!-- Icons font CSS-->
     <link href="{{ url_for('static', filename='vendor/mdi-font/css/material-design-iconic-font.min.css') }}" rel="stylesheet" media="all">
@@ -174,8 +174,19 @@
                         
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="Were you considered a first-generation college student (i.e. you were the first in your family to go to college)?">
+                                <select name="Were you considered a legacy (i.e. your parents or siblings went to the University of Michigan)?">
                                     <option disabled="disabled" selected="selected">Were you considered a legacy (i.e. your parents or siblings went to the University of Michigan)?</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="Were you considered a first-generation college student (i.e. you were the first in your family to go to college)?">
+                                    <option disabled="disabled" selected="selected">Were you considered a first-generation college student (i.e. you were the first in your family to go to college)?</option>
                                     <option>Yes</option>
                                     <option>No</option>
                                 </select>
